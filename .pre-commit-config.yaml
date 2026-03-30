@@ -31,3 +31,11 @@ repos:
         entry: uv run ty
         args: ["check"]
         types: [python]
+  - repo: local
+    hooks:
+      - id: commitizen
+        name: Check commit messages with Commitizen
+        language: python
+        entry: uv run cz check
+        args: [--allow-abort, --commit-msg-file]
+        stages: [commit-msg]

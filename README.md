@@ -7,3 +7,6 @@
 ![alt text](image-4.png)
 3.1 задание
 ![alt text](image-5.png)
+![alt text](image-6.png)
+3.2 задание
+![alt text](image-7.png)
