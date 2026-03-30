@@ -7,3 +7,19 @@ repos:
       - id: check-yaml
       - id: end-of-file-fixer
       - id: trailing-whitespace
+  - repo: https://github.com/abravalheri/validate-pyproject
+    rev: v0.25
+    hooks:
+      - id: validate-pyproject
+  - repo: https://github.com/astral-sh/uv-pre-commit
+    rev: "0.11.2"
+    hooks:
+      - id: uv-lock
+        name: check uv lock file consistency
+        args: ["--locked"]
+  - repo: https://github.com/astral-sh/ruff-pre-commit
+    rev: v0.15.8
+    hooks:
+      - id: ruff-check
+        args: [--fix, --unsafe-fixes, --show-fixes]
+      - id: ruff-format
