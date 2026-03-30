@@ -5,12 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="17cdf84a-a668-41ee-b1e1-feded224c3f0" name="Changes" comment="eat: добавлены хуки validate-pyproject, uv-lock, ruff">
-      <change afterPath="$PROJECT_DIR$/image-6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/image-10.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/image-11.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/image-8.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/image-9.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.pre-commit-config.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/.pre-commit-config.yaml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pyproject.toml" beforeDir="false" afterPath="$PROJECT_DIR$/pyproject.toml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/uv.lock" beforeDir="false" afterPath="$PROJECT_DIR$/uv.lock" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -98,7 +98,7 @@
       <workItem from="1774858486346" duration="1692000" />
       <workItem from="1774860206099" duration="3000" />
       <workItem from="1774860220373" duration="36000" />
-      <workItem from="1774860265526" duration="614000" />
+      <workItem from="1774860265526" duration="2219000" />
     </task>
     <servers />
   </component>
