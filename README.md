@@ -82,5 +82,5 @@
 ### Клонирование репозитория
 
 ```bash
-git clone
+git clone https://github.com/nurgaleeva4/nurgaleeva_ka_precommit.git
 cd nurgaleeva_ka_precommit
