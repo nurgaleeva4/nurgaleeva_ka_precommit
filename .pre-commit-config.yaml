@@ -23,3 +23,11 @@ repos:
       - id: ruff-check
         args: [--fix, --unsafe-fixes, --show-fixes]
       - id: ruff-format
+  - repo: local
+    hooks:
+      - id: ty-check
+        name: Check types with ty
+        language: system
+        entry: uv run ty
+        args: ["check"]
+        types: [python]
